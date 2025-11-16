@@ -4,51 +4,63 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Nơi lưu giữ những di sản tôi đã tạo ra">
-        <meta name="author" content="Nguyễn Trùng Dương" />
+        <meta name="author" content="Nguyễn Trùng Dương" data-i18n="meta_author">
         <link rel="icon" type="image/x-icon" href="image/favicon.ico">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/mobile.css">
-        <title>Home - NTD Vault</title>
+        <title>NTDGAMES</title>
     </head>
 
     <body>
         <!-- main -->
-        <h1>NTD VAULT</h1>
-        <p>THE WEBSITE IS CURRENTLY UNDER DEVELOPMENT</p>
+        <img src="image/text.png" width="270" height="50">
+        <p data-i18n="status">TRANG WEB HIỆN ĐANG ĐƯỢC PHÁT TRIỂN</p>
 
         <font size="4">
             [
-            <a href="/">Home</a>
+            <a href="/" data-i18n="tab_home" class="menu-link" data-original-href="/">Trang chủ</a>
             |
-            <a href="archive.html">Archive</a>
+            <a href="games.html" data-i18n="tab_games" class="menu-link" data-original-href="games.html">Trò chơi</a>
             |
-            <a href="news.html">News</a>
+            <a href="news.html" data-i18n="tab_news" class="menu-link" data-original-href="news.html">Tin tức</a>
             ]
         </font>
 
         <hr>
 
         <div class="des">
-            <h2>Home</h2>
-            <p>Welcome to NTD Vault, a place dedicated to preserving and exploring my entire journey through Minecraft.</p>
-            <p>This website serves as a personal chronicle - a digital home for every world I've built, every redstone contraption I've engineered, and every story that unfolded along the way.</p>
-            <p>From the very first dirt house to vast creative projects, each chapter of this journey reflects how I've grown - not just as a player, but as a creator who found meaning in every block.</p>
-            <p>Over time, NTD Vault has become more than a collection of saves or screenshots. It's a living archive of experiments, discoveries, and memories that define my Minecraft path.</p>
+            <h2 data-i18n="home">Trang chủ</h2>
+            <p data-i18n="home-line-1"><b>\ > CHÀO MỪNG. BẠN ĐANG TRUY CẬP TRANG GỐC CỦA NTDGAMES.</b></p>
+            <p data-i18n="home-line-2">Tôi là người đang xây dựng NTDGAMES. Đây là dự án cá nhân, nơi tôi bắt đầu hành trình làm game của mình. Tôi không tự nhận là nhà phát triển chuyên nghiệp, mà là một người đang học hỏi và đam mê tạo ra các trải nghiệm kỹ thuật số.</p>
+
+            <p data-i18n="home-line-3"><b>\ > MỤC TIÊU HIỆN TẠI: HỌC HỎI VÀ THỬ NGHIỆM.</b></p>
+            <p data-i18n="home-line-4">Tôi đang tập trung vào việc tạo ra những game đơn giản để nắm vững các kỹ năng cơ bản. Mọi dự án bạn thấy ở đây là những bước đi đầu tiên, nhằm tích lũy kinh nghiệm. Khi trình độ và kỹ năng được nâng cao, tôi sẽ chuyển sang xây dựng những tựa game lớn hơn và phức tạp hơn.</p>
+            
+            <p data-i18n="home-line-5"><b>[TRẠNG THÁI HỆ THỐNG: ĐANG XÂY DỰNG CƠ SỞ DỮ LIỆU GAME]</b></p>
+            <p data-i18n="home-line-6">Trang web hiện tại đang được cấu hình. Các tệp trò chơi và nhật ký phát triển đang được xử lý và tải lên. Xin bạn vui lòng đợi.</p>
+
+            <p data-i18n="home-line-7"><b>\ > HÃY THEO DÕI NHỮNG BƯỚC ĐẦU TIÊN CỦA TÔI.</b></p>
+            <p data-i18n="home-line-8">• Kiểm tra mục [<a href="games.html" class="menu-link" data-original-href="games.html">Trò chơi</a>] để xem các dự án thử nghiệm mà tôi đang triển khai.</p>
+            <p data-i18n="home-line-9">• Theo dõi mục [<a href="news.html" class="menu-link" data-original-href="news.html">Tin tức</a>] để nhận các nhật ký học tập và cập nhật tiến độ.</p>
+
+            <p data-i18n="home-line-10"><b>\ > CẢM ƠN BẠN ĐÃ GHÉ THĂM VÀ ỦNG HỘ.</b></p>
         </div>
 
         <hr>
 
-        <!-- Cập nhật lần cuối -->
-        <p style="text-align:center; font-size:12px; color:#00ffff; margin-top:20px;">
-            [ Last update: 2025-10-12 ]
-        </p>
-
         <!-- Bản quyền -->
         <footer style="text-align:center; margin-top:10px; font-size:12px; color:#6495ED;">
-            <p>© 2022 - 2025 Nguyen Trung Duong. All rights reserved.</p>
+            <p data-i18n="copyright">© 2024 - 2025 Nguyễn Trùng Dương. Mọi quyền được bảo lưu.</p>
         </footer>
+
+        <select id="language-switcher">
+            <option value="vi">Tiếng Việt</option>
+            <option value="en">English</option>
+            <option value="ko">한국어</option>
+        </select>
 
         <!-- javascript -->
         <script src="js/script.js"></script>
+        <script src="js/language.js"></script>
     </body>
 </html>

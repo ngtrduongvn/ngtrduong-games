@@ -18,12 +18,8 @@ body {
 /* Đường dẫn */
 a {
   color: #5a5d63;
+  text-decoration: none;
 }
-
-
-
-
-/* Main */
-h1 {
-  color: #00ff2b;
+a:hover {
+  color: #8d8d8d;
 }
