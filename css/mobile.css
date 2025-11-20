@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   body {
-    padding: 10px 30px;
+    padding: 10px 10px;
     font-size: 14px;
   }
 
@@ -11,4 +11,5 @@
   p {
     font-size: 14px;
   }
+
 }
