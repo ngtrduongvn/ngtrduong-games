@@ -8,6 +8,7 @@
         <link rel="icon" type="image/x-icon" href="image/favicon.ico">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/email.css">
         <title>ᴄᴏɴᴛᴀᴄᴛ - ɴᴛᴅɢᴀᴍᴇꜱ</title>
     </head>
 
@@ -31,9 +32,21 @@
         <hr>
 
         <div class="des">
-            <h1><u>CONTACT</u><small>(beta)</small></h1>
-            <p><b>Email:</b> ntdgames.official@gmail.com</p>
-            <p>We commit to replying to your contact email within 24 hours.</p>
+            <h1><u>CONTACT</u></h1>
+            <form id="simple-contact-form" action="https://formspree.io/f/myzqvdkg" method="POST">
+        
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
+                
+                <div class="form-row">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="Message" required></textarea>
+                </div>
+                
+                <input type="submit" value="Send">
+            </form>
         </div>
 
         <hr>
