@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+  body {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

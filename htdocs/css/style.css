@@ -1,0 +1,25 @@
+body {
+  user-select: none;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  padding: 10px 300px;
+  margin: 0 auto;
+}
+
+.des {
+  text-align: left;
+}
+.des p {
+  font-size: 18px;
+}
+
+/* Đường dẫn */
+a {
+  color: #5a5d63;
+  text-decoration: none;
+}
+a:hover {
+  color: #8d8d8d;
+}
