@@ -1,0 +1,99 @@
+html {
+    user-select: none;
+    background-color: #eeeeee;
+}
+
+body {
+    font-size: 0.875em;
+    font-size: calc(1em * 0.875);
+    color: black;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.content {
+    background-color: white;
+    min-height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 1024px;
+} 
+
+.header {
+    /* font-family: 'Linux Libertine','Georgia','Times',serif; */
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 12px;
+    font-size: 1.8em;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.section_header {
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 12px;
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.subsection_header {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 4px;
+}
+
+.subsection_body {
+    padding-bottom: 16px;
+}
+
+.sub_body_changelog {
+    font-family: Consolas, "Courier New", Courier, monospace;
+}
+
+.info {
+    margin-top: -8px;
+    font-style: italic;
+    padding-bottom: 12px;
+}
+
+.navbar {
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.nav_entry {
+    float: left;
+    margin-left: 8px;
+    text-align: center;
+}
+
+.nav_entry:first-child {
+    margin-left: 0px;
+}
+
+.nav_entry a {
+    display: block;
+    padding: 4px;
+    background-color: #eeeeee;
+}
+
+a.active {
+    text-decoration: none;
+    pointer-events: none;
+    color: black;
+    background-color: white;
+}
+
+a {
+    color: #0000FF;
+
+}

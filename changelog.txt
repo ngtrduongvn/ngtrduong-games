@@ -1,0 +1,73 @@
+WEB CHANGELOG SYMBOL STANDARD
+============================
+
+This file defines a clean, professional symbol-based
+changelog standard for WEBSITES and WEB APPLICATIONS.
+(No emojis, symbols only)
+
+--------------------------------
+SYMBOL LEGEND
+--------------------------------
+
+[+] Added
+    EN: Added
+    VI: Thêm
+    Usage: New features, new pages, new modules
+
+[*] Fixed
+    EN: Fixed
+    VI: Sửa lỗi
+    Usage: Bugs, visual issues, logic errors
+
+[^] Improved
+    EN: Improved
+    VI: Cải thiện
+    Usage: UI / UX improvements, performance, responsiveness
+
+[~] Changed
+    EN: Changed
+    VI: Thay đổi
+    Usage: Behavior changes, layout or content adjustments
+
+[-] Removed
+    EN: Removed
+    VI: Xoá
+    Usage: Deprecated or deleted features
+
+[!] Important
+    EN: Important / Notice
+    VI: Quan trọng / Thông báo
+    Usage: Warnings, notices, required user actions
+
+[v] Optimized
+    EN: Optimized
+    VI: Tối ưu
+    Usage: Speed, loading time, resource optimization
+
+[#] Security
+    EN: Security
+    VI: Bảo mật
+    Usage: Security fixes, vulnerability patches
+
+--------------------------------
+RECOMMENDED RULES
+--------------------------------
+
+- Use 5–8 symbols per release
+- Always include a legend when symbols are used
+- Avoid emojis in professional web changelogs
+- Keep entries short and user-friendly
+- Support bilingual entries if needed (EN / VI)
+
+--------------------------------
+EXAMPLE CHANGELOG
+--------------------------------
+
+v1.3.0 – 2025-12-29
+
+[+] Added: Dark mode toggle
+[*] Fixed: Header overlap on mobile
+[^] Improved: Homepage layout
+[v] Optimized: Page load speed
+[#] Security: Updated authentication logic
+[!] Important: Clear browser cache after update
