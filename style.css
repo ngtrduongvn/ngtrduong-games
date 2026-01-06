@@ -57,6 +57,7 @@ html, body {
 
 .sub_body_changelog {
     font-family: Consolas, "Courier New", Courier, monospace;
+    padding-bottom: 16px;
 }
 
 .info {
